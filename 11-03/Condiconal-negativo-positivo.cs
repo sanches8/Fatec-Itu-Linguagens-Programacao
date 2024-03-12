@@ -12,6 +12,9 @@
             {
                 Console.WriteLine("O número " + num + " é positivo.");
             }
+            else if(num < 0){
+                Console.WriteLine("O número " + num + " é negativo.");
+            }
             else
             {
                 Console.WriteLine("Esse número é zero");
