@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp2
+﻿namespace ConsoleApp3
 {
     internal class Program
     {
@@ -8,10 +8,12 @@
             Console.WriteLine("Forneça um número inteiro: ");
             num = Convert.ToInt32(Console.ReadLine());
 
-            if(num > 0){
+            if (num > 0)
+            {
                 Console.WriteLine("O número " + num + " é positivo.");
             }
-            else{
+            else
+            {
                 Console.WriteLine("Esse número é zero");
             }
         }
