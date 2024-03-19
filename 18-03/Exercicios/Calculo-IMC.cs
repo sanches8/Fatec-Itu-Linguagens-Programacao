@@ -12,7 +12,6 @@ if (total <= 18.5)
 {
     Console.WriteLine("Abaixo do peso normal");
 }
-
 else if (total <= 24.9)
 {
     Console.WriteLine("Peso normal");
